@@ -1,4 +1,5 @@
-export function idade(nome, anoNasc){
-    const idade = 2025 - anoNasc;
-    return "Olá, " + nome + "! Você terá " + idade + " anos em 2025.";
+export function idade(nome, anoNasc, anoAtual) {
+    idade = anoAtual - anoNasc
+    return `Olá, ${nome}! Em ${anoAtual} você terá ${idade} anos!`;
 }
+
